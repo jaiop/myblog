@@ -1,17 +1,49 @@
 body {
-    text-align: center;
-    background-color: cyan;
+    margin: 0;
+    padding-top: 800px;
+}
+
+.profile {
+    width: 200px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    color: azure;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.83;
+    background: linear-gradient(#33ccff 0%, #66ffcc 100%);
+    display: table;
+    width:100%;
+    height:100%
 }
 
 h1 {
-    color: darkred;
-    border-style: solid;
-    border-color: black;
+    font-size: 70px;
+    line-height: 1.2;
 }
 
-img {
-    width: 300;
-    height: 300;
-    border-style: ridge;
-        border-color: black;
+#bio {
+    padding: 50px;
+}
+
+#line {
+    height: 30px;
+    width: 70px;
+    background-color: black;
+    margin: 8px auto;
+}
+
+paralax inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+
 }
